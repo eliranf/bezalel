@@ -26,23 +26,8 @@ $blue-border: #40478F;
   padding: 0px;
 }
 
-.page-header-text {
-  margin: 0px;
-  //border-bottom-style: none;
-  padding: 0px;
-  background-color: green;
-  border-top-style: solid;
-  border-top-width: 3px;
-  border-top-color: white;
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-top-color: white;
-  border-bottom-color: white;
-  text-align: center;
-}
-
 body {
-  background-color: $dark-blue;
+  background-color: $grey;
 }
 
 section {
@@ -58,21 +43,49 @@ textarea {
 }
 
 /* typography */
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Lucida Sans Unicode", Lucida Grande
-  //font-family: "Verdana", Geneva;
-}
-
+/*
 h1 {
   font-size: 3em;
-  margin: 0px;
+  margin-top: 50px;
   padding: 10px;
   letter-spacing: 3px;
   color: white;
 }
+*/
 
-.title-home     { background-color: #1486F7; }
+.title-home {
+  background-color: #fff;
+
+  h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    //padding: 10px;
+    letter-spacing: 3px;
+    color: blue;
+  }
+  
+  h2 {
+    margin-top: 5px;
+    color: blue;
+  }
+}
+
+.page-header-text {
+  margin: 0px;
+  //border-bottom-style: none;
+  padding: 0px;
+  //background-color: green;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-top-color: white;
+  border-bottom-color: blue;
+  text-align: center;
+}
+
 .title-videos   { background-color: green; }
 .title-photos   { background-color: $orange; }
 .title-about    { background-color: #6E22A8; }
@@ -86,6 +99,7 @@ h1 {
 .header-nav-title-contact  { color: #911103; }
 .header-nav-title-business { color: black; }
 
+/*
 h2 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -98,6 +112,7 @@ h2 {
   color: rgb(42, 45, 74);
   //color: $light-blue;
 }
+*/
 
 h3 {
   font-size: 2em;
@@ -271,6 +286,7 @@ footer {
   }
 }
 
+/*
 .gen-container {
   overflow: auto;
   
@@ -296,7 +312,7 @@ footer {
     color: $blue;
   }
 }
-
+*/
 .img-home {
   display:inline-block;
   margin-top: 10px;
