@@ -63,6 +63,9 @@ textarea {
 }
 
 .profile-img {
+  img {
+    border-radius: 5px;
+  }
   position: absolute;
   top: 190px;
   left: 140px;
@@ -82,6 +85,74 @@ textarea {
   :after {
    content: "\f00c";
    font-size: 12px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  }
+}
+
+.general-list {
+  :after {
+   content: "\f069";
+   font-size: 10px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  }
+  
+}
+
+.start-details {
+  :after {
+    content: "\f0a1";
+    font-size: 22px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  }
+}
+.address-icn {
+  :after {
+    color: rgb(51, 51, 51);
+    content: "\f015";
+    font-size: 18px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  }
+}
+.mail-icn {
+  color: darkblue;
+  :after {
+    color: rgb(51, 51, 51);
+    content: "\f003";
+    font-size: 18px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  }
+}
+.office-icn {
+  color: darkblue;
+  :after {
+    color: rgb(51, 51, 51);
+    content: "\f02f";
+    font-size: 18px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+  }
+}
+.phone-icn {
+  :after {
+    content: "\f095";
+    font-size: 18px;
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
@@ -235,7 +306,7 @@ p {
 
 /* main area */
 .main-area {
-  margin-top: 1px;
+  margin-top: 10px;
   padding-top: 1px;
   //background-color: rgb(247, 247, 247);
   background-color: rgb(225, 227, 227)
