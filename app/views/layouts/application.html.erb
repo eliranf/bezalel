@@ -28,8 +28,6 @@
   
   </head>
   <body>
-    <!-- <%= render 'layouts/header' %> -->
-
       <% if yield(:title) == "home" %>
         <div class="page-header-text title-home">
           <h1>
@@ -42,12 +40,7 @@
             <B>DR. BEZALEL FRIEDMAN</B> ORTHOPEDIC SURGEON
           </h2>
         </div>
-      <% else %><% if yield(:title) == "videos" %>
-      <% else %><% if yield(:title) == "photos" %>
-      <% else %><% if yield(:title) == "about" %>
-      <% else %><% if yield(:title) == "business" %>
-      <% else %><% if yield(:title) == "contact" %>
-      <% end %><% end %><% end %><% end %><% end %><% end %>
+      <% end %>
     </div>
   
     <div class="container container-body">
